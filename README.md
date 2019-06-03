@@ -36,13 +36,13 @@ step 3 - Installing wordpress
   
 			cp -vR wordpress/* /var/www/html/               # Copy the files to /var/www/html
   
-    			sudo chown -R apache:apache /avr/www/html/*
+    			sudo chown -R apache:apache /avr/www/html/      # Giving Permission to the folder
 
-    			sudo chown -R apache:apache /var/www/html/*
+    			sudo chown -R apache:apache /var/www/html/
    
    		        cd /var/www/html/
 
-    		        cp wp-config-sample.php wp-config.php
+    		        cp wp-config-sample.php wp-config.php		# Copying the file							
      
                      
 
