@@ -17,7 +17,10 @@ step 2 - Installing Mariadb/Mysql
 
 	commands:
 
-
+                  sudo yum install -y mariadb-server mariadb # for installing mariadb-server # we are using -y to automatically answer yes to all the quries. 
+		  sudo systemctl start mariadb    # for starting mariadb services
+		  sudo mysql_secure_installation
+			# we are usign sudo as to get root rights
 
 
 Install LAMP on your local Linux system (Laptop/Desktop) and setup WordPress
