@@ -21,7 +21,30 @@ step 2 - Installing Mariadb/Mysql
 		  sudo systemctl start mariadb    	        # for starting mariadb services
 		  sudo mysql_secure_installation
 			                                        # we are usign sudo as to get root rights
+step 3 - Installing wordpress 
+
+
+	commands:  
+ 
+  		        mkdir LAMP   					# Creating LAMP folder
   
+ 	 		cd LAMP/                                        # Excess lamp Folder
+  
+ 			wget http://wordpress.org/latest.tar.gz	        # Download wordpress  		
+   
+			tar -xvf latest.tar.gz 				# Extract the zip					
+  
+			cp -vR wordpress/* /var/www/html/               # Copy the files to /var/www/html
+  
+    			sudo chown -R apache:apache /avr/www/html/*
+
+    			sudo chown -R apache:apache /var/www/html/*
+   
+   		        cd /var/www/html/
+
+    		        cp wp-config-sample.php wp-config.php
+     
+                     
 
 Install LAMP on your local Linux system (Laptop/Desktop) and setup WordPress
 ![Capture](https://user-images.githubusercontent.com/16596896/58789569-52649e00-85a3-11e9-8a3b-ce64b2e8100f.PNG)
