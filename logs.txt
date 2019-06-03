@@ -1,0 +1,133 @@
+ 1  dhclient -V enp0s3
+    2  ifconfig
+    3  reboot
+    4  ifconfig
+    5  pwd
+    6  vim /etc/yum.repos.d/nw.repo
+    7  yum repolist
+    8  clear
+    9  yum install httpd
+   10  vim /etc/yum.repos.d/nw.repo 
+   11  yum repolist
+   12  yum install httpd
+   13  vim /etc/yum.repos.d/nw.repo 
+   14  yum repolsit
+   15  vim /etc/yum.repos.d/nw.repo 
+   16  yum repolsit
+   17  vim /etc/yum.repos.d/nw.repo 
+   18  yum repolist
+   19  yum install httpd
+   20  clear
+   21  poweroff
+   22  rpm -ivh openssl-1.0.1e-57.el6.x86_64.rpm 
+   23  sudo yum install http://mirror.centos.org/centos/7/os/x86_64/Packages/openssl-1.0.2k-8.el7.x86_64.rpm http://mirror.centos.org/centos/7/os/x86_64/Packages/openssl-libs-1.0.2k-8.el7.x86_64.rpm
+   24  ping 8.8.8.8
+   25  cealr
+   26  clear
+   27  ssh -i ~/.ssh/demo.pem ec2-user@34.218.66.191
+   28  clear
+   29  sudo yum update -y
+   30  yum repolist
+   31  yum install sudo
+   32  sudo yum isntall -y httpd
+   33  sudo yum install -y httpd
+   34  sudo systemctl start httpd
+   35  sudo systemctl enable httpd
+   36  sudo systemctl restart httpd
+   37  sudo systemctl status httpd
+   38  sudo yum install -y mariadb-server mariadb
+   39  sudo systemctl start mariadb
+   40  sudo systemctl enable mariadb
+   41  sudo systemctl status maridb
+   42  sudo systemctl status mariadb
+   43  sudo mysql_secure_installation
+   44  sudo yum install -y php php-mysql php-gd
+   45  sudo systemctl restart httpd
+   46  sudo vim /var/www/html/demo.php
+   47  ifconfig
+   48  mysql -u root -p
+   49  cd Desktop/
+   50  mkdir LAMP
+   51  cd LAMP/
+   52  wget http://wordpress.org/latest.tar.gz
+   53  ls
+   54  tar -xvf latest.tar.gz 
+   55  cp -vR wordpress/* /var/www/html/
+   56  sudo chown -R apache:apache /avr/www/html/*
+   57  sudo chown -R apache:apache /var/www/html/*
+   58  cd /var/www/html/
+   59  cp wp-config-sample.php wp-config.php
+   60  ls
+   61  vim wp-config.php 
+   62  yum update php
+   63  subscription-manager repos --enable rhel-server-rhscl-7-rpms
+   64  yum install rh-php56 rh-php56-php rh-php56-php-gd rh-php56-php-mbstring rh-php56-php-mysqlnd rh-php56-php-intl rh-php56-php-ldap
+   65  yum search php --showduplicates
+   66  yum install php56w
+   67  pip install php56w
+   68  cd /Desktop
+   69  cd ..
+   70  cd
+   71  cd /Desktop
+   72  cd Desktop/
+   73  ls
+   74  python get-pip.py 
+   75  pip install php56w
+   76  wget http://rpms.remirepo.net/enterprise/7/remi/x86_64/
+   77  yum remove  php
+   78  rpm -ivh php-mysql-5.6.40-1.mga6.x86_64.rpm 
+   79  yum install php
+   80  rpm -ivh php-mysql-5.6.40-1.mga6.x86_64.rpm 
+   81  yum remove php
+   82  yum --enablerepo=remi,remi-php56 install php php-common
+   83  yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+   84  yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm
+   85  killall
+   86  yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm
+   87  yum install yum-utils
+   88  yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm
+   89  yum-config-manager --enable remi-php56   [Install PHP
+   90  yum-config-manager --enable remi-php56
+   91  yum install php php-mcrypt php-cli php-gd php-curl php-mysql php-ldap php-zip php-fileinfo
+   92  php -V
+   93  php -v
+   94  yum install php php-mcrypt php-cli php-gd php-curl php-mysql php-ldap php-zip php-fileinfo
+   95  yum remove php
+   96  yum install php56w php56w-opcache
+   97  yum install epel-release
+   98  rpm -Uvh https://mirror.webtatic.com/yum/el6/latest.rpm
+   99  yum install php56w php56w-opcache
+  100  yum install php56w
+  101  sudo yum install http://mirror.centos.org/centos/6/os/x86_64/Packages/openssl-1.0.1e-15.el6.x86_64.rpm
+  102  sudo yum install http://mirror.centos.org/centos/6/os/x86_64/Packages/openssl-1.0.1e-57.el6.x86_64.rpm
+  103  vim /etc/yum.conf 
+  104  yum install php56w
+  105  vim /etc/yum.conf 
+  106  yum install php56w
+  107  sudo yum install http://mirror.centos.org/centos/7/os/x86_64/Packages/openssl-1.0.2k-8.el7.x86_64.rpm http://mirror.centos.org/centos/7/os/x86_64/Packages/openssl-libs-1.0.2k-8.el7.x86_64.rpm
+  108  yum install php56w
+  109  wget http://dl.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm
+  110  # wget http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
+  111  # rpm -Uvh epel-release-6-8.noarch.rpm remi-release-6.rpm
+  112  yum install yum-utils
+  113  yum-config-manager --enable remi-php56
+  114  yum install php php-mcrypt php-cli php-gd php-curl php-mysql php-ldap php-zip php-fileinfo
+  115  yum install php php-mcrypt php-cli php-gd php-curl php-mysql php-ldap php-zip php-fileinfo --skip-broken
+  116  php -V
+  117  php -v
+  118  yum install php php-mcrypt php-cli php-gd php-curl php-mysql php-ldap php-zip php-fileinfo 
+  119  yum remove php-mcrypt
+  120  yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+  121  yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm
+  122  yum install yum-utils
+  123  yum-config-manager --enable remi-php70   [Install PHP 7.0]
+  124  yum-config-manager --enable remi-php70
+  125  yum-config-manager --enable remi-php72
+  126  yum install php php-mcrypt php-cli php-gd php-curl php-mysql php-ldap php-zip php-fileinfo
+  127  ping 8.8.8.8
+  128  reboot
+  129  rpm -ivh openssl-1.0.1e-57.el6.x86_64.rpm 
+  130  rpm -ivh compat-openssl10-1.0.2o-5.fc30.aarch64.rpm 
+  131  rpm -ivh openssl-libs-1.0.2k-16.el7.x86_64.rpm 
+  132  history
+
