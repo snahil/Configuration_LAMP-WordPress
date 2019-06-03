@@ -48,7 +48,7 @@ step4 - Installing PHP
 [ for using wordpress the user must install php version greater then 5.4]
 
 
-			yum install php  				#for installing php version 5.4
+			yum install php  				#for installing php 
 
 			
 
