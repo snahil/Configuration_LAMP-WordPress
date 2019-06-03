@@ -44,7 +44,13 @@ step 3 - Installing wordpress
 
     		        cp wp-config-sample.php wp-config.php		# Copying the file							
      
-                     
+step4 - Installing PHP
+[ for using wordpress the user must install php version greater then 5.4]
+
+
+			yum install php  				#for installing php version 5.4
+
+			
 
 Install LAMP on your local Linux system (Laptop/Desktop) and setup WordPress
 ![Capture](https://user-images.githubusercontent.com/16596896/58789569-52649e00-85a3-11e9-8a3b-ce64b2e8100f.PNG)
